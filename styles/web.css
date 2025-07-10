@@ -16,6 +16,7 @@
 
 header{
     background-image: url(../Assets/Hero-bg.png);
+    
 }
 
 /* shared */
@@ -39,14 +40,62 @@ nav{
 
 .nav-title{
     font-size: 34px;
-    font-weight:bolder;
+    font-weight: 900;
 }
 
 nav button{
     width: 145px;
     align-items: center;
 }
+
+/* div */
+
 .div-title{
     color: #252432;
     font-size: 65px;
+}
+
+
+.title{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    display: block;
+    padding: 305px 265px 152px;
+}
+
+/* Main */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 115px;
+} 
+
+.action-content{
+    padding-top: 134px;
+    padding-bottom: 134px;
+    padding-right: 220px;
+}
+.action-content h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-content p{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action img{
+    border-radius: 48px;
+    width: 405px;
 }
