@@ -14,6 +14,10 @@
   color: #4E47FF;
 }
 
+body{
+    background-color: #f5f8ff;
+}
+
 header{
     background-image: url(../Assets/Hero-bg.png);
     
