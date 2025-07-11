@@ -29,6 +29,13 @@ header {
 }
 
 /* shared */
+.btn-design:hover{
+    background-color: transparent;
+    color: #4E47FF;
+    border: 2px solid #4E47FF;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.089);
+}
 
 .secondary-bg{
     background-color: white;
@@ -292,3 +299,26 @@ input[type="text"], input[type="email"], textarea{
     display: block;
     width: 100%;
 }
+
+.footer-container{
+    background-color: white;
+    margin-top: 0 auto;
+    padding: 100px 455px;
+    text-align: center;
+}
+.footer-header{
+    margin-bottom: 0;
+    font-size: 100px;
+    font-weight:  1000;
+    color: #4E47FF;
+}
+.footer-description{
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+}
+
